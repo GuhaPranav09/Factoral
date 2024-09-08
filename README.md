@@ -46,10 +46,10 @@ Guess the correct pair of factors for a randomly chosen semi-prime number.
 
 - **Semi-Prime Number:** 143
 - **Digits in Factors:** Smaller (2 digits), Larger (2 digits)
-- **Your Guess:** 13 11
+- **Your Guess:** 18 31
 - **Feedback:**
   - Factor 1: Green, Gray
-  - Factor 2: Gray, Yellow
+  - Factor 2: Yellow, Yellow
 
 ## Requirements
 
