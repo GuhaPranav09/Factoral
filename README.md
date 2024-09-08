@@ -1,4 +1,4 @@
-# Factorle
+# Factoral
 
 ## Overview
 
@@ -23,7 +23,7 @@ Guess the correct pair of factors for a randomly chosen semi-prime number.
 ## How to Play
 
 1. **Start the Game:**
-   - Run the `Factorle.py` script to start the game.
+   - Run the `Factoral.py` script to start the game.
 
 2. **Understand the Challenge:**
    - The game will display a semi-prime number and the number of digits in each factor.
@@ -65,4 +65,4 @@ Guess the correct pair of factors for a randomly chosen semi-prime number.
 To start the game, use the following command:
 
 ```bash
-python Factorle.py
+python Factoral.py

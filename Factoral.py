@@ -1,4 +1,5 @@
 import random
+import number_list
 
 def get_factors(n):
     pairs = []
@@ -37,12 +38,7 @@ def update_best_score(filename, new_score):
 
 def play_game():
     # List of semi-prime numbers to choose from (varied digit length factors)
-    semi_prime_numbers = [
-        143, 221, 323, 527, 899, 437, 713, 667, 899, 1111, 2027, 2999, 4049, 5003, 6089, 7001, 8101, 
-        9029, 10303, 11777, 12469, 13249, 14551, 15457, 16783, 18013, 19739, 20441, 21319, 22447,
-        23429, 24709, 25847, 26717, 28037, 29389, 30011, 31721, 32927, 34561, 35867, 37441, 38977, 
-        40213, 41707, 43133, 44347, 45767, 47089, 48947
-    ]
+    semi_prime_numbers = number_list.semi_prime_numbers
     
     print("\n\nWelcome to the Wordle-like Factor Guessing Game!")
     print("Rules:")
